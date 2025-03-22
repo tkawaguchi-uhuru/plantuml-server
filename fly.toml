@@ -1,4 +1,4 @@
-app = "myPlantUmlSvr"
+app = "tkawag-plantuml-svr"
 primary_region = "nrt"
 kill_signal = "SIGTERM"
 kill_timeout = 120
