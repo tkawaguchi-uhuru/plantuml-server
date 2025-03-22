@@ -4,7 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile.jetty
     image: plantuml/plantuml-server:jetty
-    container_name: plantuml-server
+    # container_name: plantuml-server
+    container_name: tkawag-plantuml-svr
     ports:
       - 8080:8080
     environment:

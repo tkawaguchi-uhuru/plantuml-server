@@ -1,11 +1,11 @@
-app = "tkawag-plantuml-svr"
+# app = "tkawag-plantuml-svr"
 primary_region = "nrt"
 kill_signal = "SIGTERM"
 kill_timeout = 120
 
 [build]
   dockerfile = "Dockerfile.jetty"
-  ignorefile = "dockerignore"
+  ignorefile = ".dockerignore"
 
 [env]
   LOG_LEVEL = "debug"
